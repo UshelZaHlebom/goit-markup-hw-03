@@ -27,6 +27,11 @@ ul {
     padding: 0;
 }
 
+img {
+    display: block;
+    min-width: 100%;
+}
+
 .hero-section,
 .pros-section,
 .examples-section,
@@ -61,7 +66,7 @@ ul {
 
 .container{
     width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0 15px 0 15px;
 }
 /* header */
@@ -167,19 +172,17 @@ ul {
 
 /* index hero */
 .hero-container{
-    text-align:center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    text-align: center;
 }
 .hero-section{
     background-color: var(--background-filler-color);
-    text-align: center;
 }
 .hero-header{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-align: center;
     text-transform: uppercase;
     color:var(--hub-color);
     margin-top: 0;
@@ -194,6 +197,7 @@ ul {
     background-color: var(--major-color);
     cursor: pointer;
     padding: 10px 32px 10px 32px;
+    border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -201,8 +205,20 @@ ul {
 }
 
 /* index pros */
-.pros-container{
-    display:flex;
+
+.pros-list{
+    outline: 1px solid tomato;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.pros-list-item{
+    outline: 1px solid teal;
+    flex-basis: calc(100%/4 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .pros-section{
@@ -214,6 +230,7 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .pros-description{
@@ -224,9 +241,20 @@ ul {
 }
 
 /*index examples*/
-.examples-container{
+
+.examples-list{
+    outline: 1px solid tomato;
     display: flex;
+    margin-left: -30px;
+    margin-top: -30px;
 }
+.examples-list-item{
+    outline: 1px solid teal;
+    flex-basis: calc(100%/3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 .examples-section{
     background-color: palegreen;
 }
@@ -236,11 +264,29 @@ ul {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 
 /*index team*/
-.team-container{
+
+.team-list{
+    outline: 1px solid tomato;
     display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.team-list-item{
+    outline: 1px solid teal;
+    flex-basis: calc(100%/4 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.team-list-photo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 .team-section {
@@ -253,17 +299,18 @@ ul {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 
 .team-list-header{
-    font-style: 400;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
-.team-list-item{
+.team-list-p{
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
