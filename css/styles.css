@@ -217,7 +217,6 @@ section{
 /* index pros */
 
 .pros-list{
-    outline: 1px solid tomato;
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -225,7 +224,6 @@ section{
 }
 
 .pros-list-item{
-    outline: 1px solid teal;
     flex-basis: calc(100%/4 - 30px);
     margin-left: 30px;
     margin-top: 30px;
@@ -253,13 +251,11 @@ section{
 /*index examples*/
 
 .examples-list{
-    outline: 1px solid tomato;
     display: flex;
     margin-left: -30px;
     margin-top: -30px;
 }
 .examples-list-item{
-    outline: 1px solid teal;
     flex-basis: calc(100%/3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
@@ -281,17 +277,17 @@ section{
 /*index team*/
 
 .team-list{
-    outline: 1px solid tomato;
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
 }
 .team-list-item{
-    outline: 1px solid teal;
     flex-basis: calc(100%/4 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-photo{
@@ -381,16 +377,15 @@ section{
 .project-list{
     display: flex;
     flex-wrap: wrap;
-    outline: 1px solid tomato;
     margin-top: -30px;
     margin-left: -30px;
 }
 
 .project-list-item{
-    outline: 1px solid teal;
     flex-basis: calc(100%/3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+    border: 1px solid #EEEEEE
 }
 
 .pic-description{
