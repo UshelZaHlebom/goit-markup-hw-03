@@ -197,6 +197,8 @@ section{
     color:var(--hub-color);
     margin-top: 0;
     margin-bottom: 30px;
+    padding-left: 210px;
+    padding-right: 210px;
 }
 .hero-btn{
     font-family: inherit;
