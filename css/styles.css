@@ -12,6 +12,28 @@ body{
     color: var(--header-color);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section,
+.pros-section,
+.examples-section,
+.team-section{
+    padding: 94px 0 94px 0;
+}
+
 .stealth {
     position: absolute;
     white-space: nowrap;
@@ -36,7 +58,22 @@ body{
 .logocolor{
     color:var(--major-color);
 }
+
+.container{
+    width: 1200px;
+    margin:0 auto;
+    padding: 0 15px 0 15px;
+}
 /* header */
+
+.studio-header{
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
 
 .studio-logo{
     font-family: Raleway;
@@ -44,10 +81,20 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    padding: 24px 0 25px 0;
+    margin-right: 93px;
 }
 
 .logo-nav{
     color:#000000;
+}
+
+.nav-panel{
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
 }
 
 .nav-panel-link {
@@ -55,13 +102,18 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--header-color);
+    color: var(--header-color);
 }
 
 .nav-panel-link:hover,
 .nav-panel-link:focus{
     color:var(--major-color);
 }
+
+.nav-list-item:not(:last-child){
+    margin-right: 50px;
+}
+
 .nav-panel-contacts{
     font-weight: 500;
     font-size: 14px;
@@ -69,6 +121,7 @@ body{
     letter-spacing: 0.02em;
     color: var(--description-color);
 }
+
 .nav-panel-contacts:hover,
 .nav-panel-contacts:focus{
     color:var(--major-color);
@@ -77,6 +130,17 @@ body{
 .nav-panel-link.current{
     color:var(--major-color);
 }
+
+.header-contacts{
+    display: flex;
+    margin-left: auto;
+}
+
+.header-contacts-item:not(:last-child){
+    margin-right: 50px;
+}
+
+/* footer */
 
 .studio-footer{
     background-color: var(--background-filler-color);
@@ -102,17 +166,24 @@ body{
 }
 
 /* index hero */
+.hero-container{
+    text-align:center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 .hero-section{
     background-color: var(--background-filler-color);
+    text-align: center;
 }
 .hero-header{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color:var(--hub-color)
+    color:var(--hub-color);
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 .hero-btn{
     font-family: inherit;
@@ -122,6 +193,7 @@ body{
     color:var(--hub-color);
     background-color: var(--major-color);
     cursor: pointer;
+    padding: 10px 32px 10px 32px;
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -129,6 +201,10 @@ body{
 }
 
 /* index pros */
+.pros-container{
+    display:flex;
+}
+
 .pros-section{
     background-color: paleturquoise;
 }
@@ -148,6 +224,9 @@ body{
 }
 
 /*index examples*/
+.examples-container{
+    display: flex;
+}
 .examples-section{
     background-color: palegreen;
 }
@@ -160,6 +239,9 @@ body{
 }
 
 /*index team*/
+.team-container{
+    display: flex;
+}
 
 .team-section {
     background-color:palegoldenrod;
