@@ -1,0 +1,224 @@
+:root{
+    --header-color:#212121;
+    --description-color:#757575;
+    --major-color: #2196f3;
+    --hub-color: #ffffff;
+    --button-hover-color:#188CE8;
+    --background-filler-color:#2F303A;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--header-color);
+}
+
+.stealth {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.nodots{
+    list-style: none;
+}
+
+.nounderline{
+    text-decoration: none;
+}
+
+.logocolor{
+    color:var(--major-color);
+}
+/* header */
+
+.studio-logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-nav{
+    color:#000000;
+}
+
+.nav-panel-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--header-color);
+}
+
+.nav-panel-link:hover,
+.nav-panel-link:focus{
+    color:var(--major-color);
+}
+.nav-panel-contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--description-color);
+}
+.nav-panel-contacts:hover,
+.nav-panel-contacts:focus{
+    color:var(--major-color);
+}
+
+.nav-panel-link.current{
+    color:var(--major-color);
+}
+
+.studio-footer{
+    background-color: var(--background-filler-color);
+}
+
+.logo-footer{
+    color:var(--hub-color);
+}
+.footer-location{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--hub-color)
+}
+
+.footer-contacts{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* index hero */
+.hero-section{
+    background-color: var(--background-filler-color);
+}
+.hero-header{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--hub-color)
+}
+.hero-btn{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    color:var(--hub-color);
+    background-color: var(--major-color);
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color:var(--button-hover-color);
+}
+
+/* index pros */
+.pros-section{
+    background-color: paleturquoise;
+}
+.pros-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.pros-description{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--description-color);
+}
+
+/*index examples*/
+.examples-section{
+    background-color: palegreen;
+}
+.examples-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*index team*/
+
+.team-section {
+    background-color:palegoldenrod;
+}
+
+.team-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-list-header{
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18px;
+    letter-spacing: 0.03em;
+}
+
+.team-list-item{
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color:var(--description-color);
+}
+
+/* portfolio main */
+
+.filter-btn{
+    font-family: inherit;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border-color: #ffffff;
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    background-color:var(--major-color);
+    color:var(--hub-color);
+}
+
+.project-list-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-list-description{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color:var(--description-color);
+}
+
