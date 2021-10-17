@@ -185,6 +185,8 @@ section{
 }
 .hero-section{
     background-color: var(--background-filler-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-header{
     font-weight: 900;
