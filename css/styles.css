@@ -241,9 +241,10 @@ section{
     margin-top: 30px;
 }
 
-/*.pros-section{
-    background-color: paleturquoise;
-}*/
+.pros-section{
+padding-bottom: 0;
+}
+
 .pros-header{
     font-weight: 700;
     font-size: 14px;
